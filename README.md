@@ -1,5 +1,6 @@
 # ShowtimeApp
-A Single Page Application movie platform website created by Angular framework and bootstrap css that shows data about movies that was fetched from an API. <br>
+A Single Page Application movie platform website created by Angular framework and bootstrap css that shows data about movies that was fetched from an API.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
 
 ## Tools Used:
