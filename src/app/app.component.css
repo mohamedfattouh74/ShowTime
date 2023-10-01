@@ -1,0 +1,9 @@
+.navbar .navbar-brand{
+    color: red;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: red;
+    font-weight: bold;
+}

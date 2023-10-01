@@ -1,0 +1,36 @@
+button {
+  background-color: red;
+}
+
+button:hover {
+  color: black;
+  background-color: rgb(148, 7, 7);
+}
+
+img {
+  width: 100%;
+  cursor: pointer;
+}
+
+h1 {
+  color: white;
+  cursor: pointer;
+}
+
+.film-card {
+  border: 1px solid rgba(255, 255, 255, 0.271);
+  border-radius: 10px;
+  /* margin: 20px 60px; */
+  margin: 20px;
+}
+
+.film-card:hover {
+  box-shadow: 0px 5px 45px -13px rgba(255, 0, 0, 0.59);
+  border: 1px solid transparent;
+  transform: scale(1.05);
+  transition: transform 1s;
+}
+
+form {
+  margin-left: 340px;
+}

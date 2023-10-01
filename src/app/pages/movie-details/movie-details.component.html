@@ -1,0 +1,48 @@
+<div class="container mt-5">
+  <div class="row p-5">
+    <div class="col-lg-2">
+      <img
+        src="https://image.tmdb.org/t/p/original/{{
+          getMovieDetailsResult.poster_path
+        }}"
+        alt="Movie Poster"
+      />
+    </div>
+
+    <div class="col-lg-10 mt-5 p-4">
+      <h1 class="mt-2 mb-2">{{ getMovieDetailsResult.original_title }}</h1>
+      <p class="mt-3 mb-3">{{ getMovieDetailsResult.overview }}</p>
+      <a
+        class="btn btn-md"
+        href="https://www.themoviedb.org/video/play?key={{
+          getMovieVideoResult
+        }}"
+        target="_blank"
+      >
+        Watch Trailer</a
+      >
+    </div>
+
+    <div class="container mt-4 p-5">
+      <h2 class="text-white mb-5">Top Cast</h2>
+      <div class="row">
+        <div class="col-lg-4" *ngFor="let cast of getMovieCastResult">
+          <div class="row">
+            <div class="col-lg-2 my-3">
+              <img
+                src="https://image.tmdb.org/t/p/original/{{
+                  cast.profile_path
+                }}"
+                alt="Cast Image"
+              />
+            </div>
+            <div class="col-lg-10">
+              <h3 class="text-white">{{ cast.original_name }}</h3>
+              <p class="text-white">{{ cast.character }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
